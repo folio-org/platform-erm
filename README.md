@@ -26,10 +26,10 @@ configuration file.
 
 ## Installation
 
-Install platform dependencies
+After cloning and `cd`ing into the directory, install platform dependencies
 ```
 $ yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
-$ yarn install
+$ yarn
 ```
 
 ## Build and serve
@@ -50,6 +50,19 @@ $ yarn build ./output
 ```
 
 See the [build](https://github.com/folio-org/stripes-cli/blob/master/doc/commands.md#build-command) and [serve](https://github.com/folio-org/stripes-cli/blob/master/doc/commands.md#serve-command) command reference in `stripes-cli` for a list of available options.
+
+## Developing and Contributing to ERM Modules
+
+To contribute to the modules (ui-agreements, ui-licenses, etc) that compose this platform, we recommend using the `stripes-cli` [Yarn Workspace functionality](https://github.com/folio-org/stripes-cli/blob/master/doc/user-guide.md#platform-development). 
+
+- [After installing `stripes-cli`](https://github.com/folio-org/stripes-cli#installation), create a workspace using `stripes workspace` and selecting which modules you wish to wish to clone locally, enabling you to make local modifications and contribute to them. 
+  - Note: Ensure you have selected `platform-erm` so that you can run the entire platform.
+- `cd` into the created workspace (titled `stripes` by default) and run `yarn` to install the dependencies.
+  - Note: Run `stripes platform pull` to `git pull` changes to the cloned repos.
+  - Note: Rerun `yarn` whenever you want to fetch new versions of NPM modules that have _not_ been cloned locally.
+- `cd` into `platform-erm`, and run `yarn start` to start serving.
+- Note: If you do not have permissions to push branches to the repos directly, you can create a fork of that repo on Github, delete the copy that was cloned when running `stripes workspace`, and replace it with a manual clone of your _forked_ repo. Then you'll be able to push changes to that fork and make pull requests from that fork into the official folio-org repo.
+
 
 ## Tests
 
