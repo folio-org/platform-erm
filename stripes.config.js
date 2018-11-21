@@ -12,7 +12,7 @@ module.exports = {
     hasAllPerms: true
   },
   modules: {
-    '@folio/erm': {},
+    '@folio/agreements': {},
     '@folio/erm-usage': {},
     '@folio/licenses': {},
     '@folio/orders': {},
