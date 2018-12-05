@@ -187,10 +187,10 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
-"@folio/agreements@~1.0.0":
-  version "1.0.100025"
-  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-1.0.100025.tgz#fb39c4c4c205c760a1d9caacf88e0ff69fe8f546"
-  integrity sha512-o/h0YFkY5MDBEWAKe3D6+hgebV00tIv+lOpIxNV8r0HgzlAc8SwNYh7uOFNRysaHR2JzDS1DIP5h44tyh3aXog==
+"@folio/agreements@~1.1.0":
+  version "1.1.100018"
+  resolved "https://repository.folio.org/repository/npm-folioci/@folio/agreements/-/agreements-1.1.100018.tgz#81804bd4a5da15ddcc23790e07a4e292cd8d9f51"
+  integrity sha512-cWDJCdXDuDUTgCqCFKJBad9vQbByaDIQTuM1oBOGwWtJ5looIv84T64KypH3VkNCaEmg0vKOEzmx1dsusudMYQ==
   dependencies:
     lodash "^4.17.4"
     prop-types "^15.6.0"
