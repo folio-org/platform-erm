@@ -14,6 +14,7 @@ module.exports = {
   modules: {
     '@folio/agreements': {},
     '@folio/licenses': {},
+    '@folio/orders': {},
     '@folio/plugin-find-agreement': {},
     '@folio/plugin-find-license': {},
     '@folio/plugin-find-user': {},
