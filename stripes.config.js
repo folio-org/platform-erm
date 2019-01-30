@@ -13,12 +13,11 @@ module.exports = {
   },
   modules: {
     '@folio/agreements': {},
-    '@folio/erm-usage': {},
     '@folio/licenses': {},
     '@folio/orders': {},
     '@folio/plugin-find-agreement': {},
+    '@folio/plugin-find-license': {},
     '@folio/plugin-find-user': {},
-    '@folio/plugin-find-vendor': {},
     '@folio/tags': {},
     '@folio/users': {},
     '@folio/vendors': {},
