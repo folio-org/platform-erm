@@ -17,13 +17,14 @@
     "lint": "eslint test/ui-testing"
   },
   "dependencies": {
-    "@folio/stripes": "^2.0.0",
     "@folio/agreements": ">=2.0.0",
     "@folio/licenses": ">=2.0.0",
     "@folio/orders": ">=1.1.0",
     "@folio/plugin-find-agreement": ">=2.0.0",
     "@folio/plugin-find-license": ">=2.0.0",
     "@folio/plugin-find-user": ">=1.5.0",
+    "@folio/stripes": "^2.0.0",
+    "@folio/stripes-cli": "^1.2.0",
     "@folio/tags": ">=1.3.0",
     "@folio/users": ">=2.20.0",
     "@folio/vendors": ">=1.3.0",
