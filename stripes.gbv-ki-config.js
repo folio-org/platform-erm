@@ -1,5 +1,5 @@
 module.exports = {
-  okapi: { 'url':'http://okapi-folio.apps.k-int.com', 'tenant':'gbv' },
+  okapi: { 'url':'https://okapi-folio.apps.k-int.com', 'tenant':'gbv' },
   config: {
     // autoLogin: { username: 'diku_admin', password: 'admin' }
     // logCategories: 'core,redux,connect,connect-fetch,substitute,path,mpath,mquery,action,event,perm,interface,xhr'
