@@ -9,7 +9,7 @@ module.exports = {
     // showHomeLink: false
     // listInvisiblePerms: false
     // disableAuth: false
-    hasAllPerms: true
+    // hasAllPerms: true
   },
   modules: {
     '@folio/agreements': {},
