@@ -20,6 +20,7 @@ module.exports = {
     '@folio/plugin-find-license': {},
     '@folio/plugin-find-user': {},
     '@folio/plugin-find-vendor': {},
+    '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/users': {},
     '@folio/vendors': {},
