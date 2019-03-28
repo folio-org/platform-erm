@@ -19,7 +19,6 @@ module.exports = {
     '@folio/plugin-find-agreement': {},
     '@folio/plugin-find-license': {},
     '@folio/plugin-find-user': {},
-    '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/users': {},
     '@folio/vendors': {},
