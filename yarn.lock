@@ -563,7 +563,7 @@
     webpack-hot-middleware "^2.22.2"
     webpack-virtual-modules "^0.1.10"
 
-"@folio/stripes-erm-components@^1.0.6", "@folio/stripes-erm-components@^1.2.1":
+"@folio/stripes-erm-components@^1.0.6", "@folio/stripes-erm-components@^1.2.1", "@folio/stripes-erm-components@~1.2.1":
   version "1.2.1"
   resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-erm-components/-/stripes-erm-components-1.2.1.tgz#0ae285f069a473ce6c966ff73c37ca826151467c"
   dependencies:
