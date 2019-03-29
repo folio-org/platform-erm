@@ -275,9 +275,9 @@
     classnames "^2.2.5"
     prop-types "^15.6.0"
 
-"@folio/plugin-find-vendor@^1.1.0", "@folio/plugin-find-vendor@~1.3.0":
-  version "1.3.1"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-vendor/-/plugin-find-vendor-1.3.1.tgz#a0004285c16d75c48be68445160d6dabb2f0843d"
+"@folio/plugin-find-vendor@^1.1.0", "@folio/plugin-find-vendor@~1.3.2":
+  version "1.3.2"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/plugin-find-vendor/-/plugin-find-vendor-1.3.2.tgz#710f815d77d305736e0bea3fe2e893d5f5f92d65"
   dependencies:
     "@folio/vendors" "^1.1.0"
     classnames "^2.2.5"
@@ -390,8 +390,8 @@
     uuid "^3.0.1"
 
 "@folio/stripes-core@^2.17.1 || ^3.0.0":
-  version "3.2.0"
-  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-3.2.0.tgz#bcb0f80ee9cc8e1722fc7b45d4cb791bcf590335"
+  version "3.3.0"
+  resolved "https://repository.folio.org/repository/npm-folio/@folio/stripes-core/-/stripes-core-3.3.0.tgz#45f31f41da13f0c02f478e68fd725e3b22da8d39"
   dependencies:
     "@folio/react-intl-safe-html" "^1.0.2"
     "@folio/stripes-components" "~5.1.0"
@@ -446,10 +446,10 @@
     postcss-url "^8.0.0"
     prop-types "^15.5.10"
     query-string "^5.0.0"
-    react "^16.3.0"
+    react "^16.8.6"
     react-apollo "^2.1.3"
     react-cookie "^2.1.4"
-    react-dom "^16.3.0"
+    react-dom "^16.8.6"
     react-hot-loader "^4.3.10"
     react-intl "^2.5.0"
     react-overlays "^0.8.3"
@@ -3399,8 +3399,8 @@ electron-download@^3.0.1:
     sumchecker "^1.2.0"
 
 electron-to-chromium@^1.3.116, electron-to-chromium@^1.3.47:
-  version "1.3.120"
-  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.120.tgz#ee94e683f4686683674be0f626a5e468cccf7d15"
+  version "1.3.121"
+  resolved "https://repository.folio.org/repository/npm-ci-all/electron-to-chromium/-/electron-to-chromium-1.3.121.tgz#761aaec1ec947b8ed3e9538177598d8f6ca3b5bd"
 
 electron@^1.8.4:
   version "1.8.8"
@@ -6691,8 +6691,8 @@ node-pre-gyp@^0.10.0:
     tar "^4"
 
 node-releases@^1.1.11:
-  version "1.1.11"
-  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.11.tgz#9a0841a4b0d92b7d5141ed179e764f42ad22724a"
+  version "1.1.12"
+  resolved "https://repository.folio.org/repository/npm-ci-all/node-releases/-/node-releases-1.1.12.tgz#1d6baf544316b5422fcd35efe18708370a4e7637"
   dependencies:
     semver "^5.3.0"
 
@@ -7975,7 +7975,7 @@ react-deep-force-update@^1.0.0:
   version "1.1.2"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-deep-force-update/-/react-deep-force-update-1.1.2.tgz#3d2ae45c2c9040cbb1772be52f8ea1ade6ca2ee1"
 
-react-dom@^16.3.0:
+react-dom@^16.3.0, react-dom@^16.8.6:
   version "16.8.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   dependencies:
@@ -8153,7 +8153,7 @@ react-transition-group@^2.2.0, react-transition-group@^2.2.1, react-transition-g
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react@^16.3.0:
+react@^16.3.0, react@^16.8.6:
   version "16.8.6"
   resolved "https://repository.folio.org/repository/npm-ci-all/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   dependencies:
