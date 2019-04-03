@@ -24,13 +24,22 @@ include a different set of the available modules.  You can copy the
 `stripes.config.js` file to be your `stripes.config.js.local`
 configuration file.
 
-## Installation
+## Installation and Branch Selection
 
-After cloning and `cd`ing into the directory, install platform dependencies
+After cloning and `cd`ing into the directory, select which branch you want to use. `snapshot` is used for daily development work and should have the latest changes. `master` is only updated for long-lived releases like the quarterly FOLIO releases.
+
+```
+$ git checkout origin snapshot
+```
+
+Next, install platform dependencies.
+
 ```
 $ yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
 $ yarn
 ```
+
+> Note that if you want to run a quarterly release version of `platform-erm`, then you should stay on `master` and also use the `https://repository.folio.org/repository/npm-folio/` repository rather than the `npm-folioci` repository in the above `yarn config` command.
 
 ## Build and serve
 
