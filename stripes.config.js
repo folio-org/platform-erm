@@ -21,6 +21,7 @@ module.exports = {
     '@folio/tags': {},
     '@folio/users': {},
     '@folio/vendors': {},
+    '@folio/inventory': {},
   },
   branding: {
     logo: {
