@@ -4,7 +4,6 @@ module.exports = {
     // autoLogin: { username: 'diku_admin', password: 'admin' }
     // disableAuth: false
     // hasAllPerms: true
-    // listInvisiblePerms: false
     // logCategories: 'core,redux,connect,connect-fetch,substitute,path,mpath,mquery,action,event,perm,interface,xhr'
     // logPrefix: 'stripes'
     // logTimestamp: false
