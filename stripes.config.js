@@ -23,7 +23,6 @@ module.exports = {
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/users': {},
-    '@folio/vendors': {},
   },
   branding: {
     logo: {
