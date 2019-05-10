@@ -2,14 +2,13 @@ module.exports = {
   okapi: { 'url':'http://localhost:9130', 'tenant':'diku' },
   config: {
     // autoLogin: { username: 'diku_admin', password: 'admin' }
+    // disableAuth: false
+    // hasAllPerms: true
     // logCategories: 'core,redux,connect,connect-fetch,substitute,path,mpath,mquery,action,event,perm,interface,xhr'
     // logPrefix: 'stripes'
     // logTimestamp: false
-    // showPerms: false
     // showHomeLink: false
-    // listInvisiblePerms: false
-    // disableAuth: false
-    // hasAllPerms: true
+    // showPerms: false
   },
   modules: {
     '@folio/agreements': {},
@@ -23,7 +22,6 @@ module.exports = {
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/users': {},
-    '@folio/vendors': {},
   },
   branding: {
     logo: {

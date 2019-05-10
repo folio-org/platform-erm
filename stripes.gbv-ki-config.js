@@ -13,15 +13,16 @@ module.exports = {
   },
   modules: {
     '@folio/agreements': {},
+    '@folio/erm-usage': {},
     '@folio/licenses': {},
     '@folio/orders': {},
+    '@folio/organizations': {},
     '@folio/plugin-find-agreement': {},
     '@folio/plugin-find-license': {},
     '@folio/plugin-find-user': {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/users': {},
-    '@folio/vendors': {},
   },
   branding: {
     logo: {
