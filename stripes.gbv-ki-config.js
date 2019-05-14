@@ -19,6 +19,7 @@ module.exports = {
     '@folio/organizations': {},
     '@folio/plugin-find-agreement': {},
     '@folio/plugin-find-license': {},
+    '@folio/plugin-find-organization': {},
     '@folio/plugin-find-user': {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
