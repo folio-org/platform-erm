@@ -1,6 +1,6 @@
 {
   "name": "@folio/platform-erm",
-  "version": "2.2.2-SNAPSHOT",
+  "version": "2.3.0-SNAPSHOT",
   "license": "Apache-2.0",
   "repository": "folio-org/platform-erm",
   "publishConfig": {
@@ -24,6 +24,7 @@
     "@folio/organizations": ">=1.0.0",
     "@folio/plugin-find-agreement": ">=2.0.0",
     "@folio/plugin-find-license": ">=2.0.0",
+    "@folio/plugin-find-organization": ">=1.1.0",
     "@folio/plugin-find-user": ">=1.5.0",
     "@folio/stripes": "^2.0.0",
     "@folio/stripes-erm-components": "^1.1.0",
