@@ -22,6 +22,7 @@ module.exports = {
     '@folio/plugin-find-user': {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
+    '@folio/tenant-settings': {},
     '@folio/users': {},
   },
   branding: {
