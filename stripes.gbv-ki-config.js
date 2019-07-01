@@ -14,6 +14,7 @@ module.exports = {
   modules: {
     '@folio/agreements': {},
     '@folio/erm-usage': {},
+    '@folio/local-kb-admin': {},
     '@folio/licenses': {},
     '@folio/notes': {},
     '@folio/orders': {},
