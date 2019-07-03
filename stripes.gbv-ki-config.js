@@ -23,6 +23,7 @@ module.exports = {
     '@folio/plugin-find-interface': {},
     '@folio/plugin-find-license': {},
     '@folio/plugin-find-organization': {},
+    '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user': {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
