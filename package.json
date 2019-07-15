@@ -46,5 +46,11 @@
     "@folio/stripes-cli": ">=1.8.0",
     "eslint": "^5.12.0",
     "moment": "^2.22.2"
+  },
+  "resolutions": {
+    "lodash": "^4.17.13",
+    "lodash.mergewith": "^4.6.2",
+    "lodash-es": "^4.17.14",
+    "lodash.defaultsdeep": "^4.6.1"
   }
 }
