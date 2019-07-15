@@ -19,6 +19,7 @@ module.exports = {
     '@folio/orders': {},
     '@folio/organizations': {},
     '@folio/plugin-find-agreement': {},
+    '@folio/plugin-find-erm-usage-data-provider': {},
     '@folio/plugin-find-interface': {},
     '@folio/plugin-find-license': {},
     '@folio/plugin-find-organization': {},
