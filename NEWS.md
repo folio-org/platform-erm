@@ -1,3 +1,11 @@
+## 2.1.1 2019-03-18
+ * "pin" stripes-erm-components by adding it as dep to package.json
+ * re-add stripes-erm-components to stripes.config.js
+
+## 2.1.0 2019-03-28
+
+ * Q1 2019 release 
+
 ## 2.0.1 Open
 
 ## 2.0.0 2019-02-23
