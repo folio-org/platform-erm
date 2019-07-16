@@ -25,7 +25,6 @@ module.exports = {
     '@folio/plugin-find-organization': {},
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user': {},
-    '@folio/plugin-find-vendor': {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/tenant-settings': {},
