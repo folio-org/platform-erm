@@ -6,7 +6,7 @@ pipeline {
     folioPlatform = 'platform-erm'
     folioHostname = "${env.folioPlatform}-${env.CHANGE_ID}-${env.BUILD_NUMBER}"
     ec2Group = "platform_erm_${env.CHANGE_ID}_${env.BUILD_NUMBER}"
-    npmConfig = 'jenkins-npm-folio'
+    npmConfig = 'jenkins-npm-folioci'
     sshKeyId = '11657186-f4d4-4099-ab72-2a32e023cced'
     folioRegistry = 'http://folio-registry.aws.indexdata.com'
     releaseOnly = 'true'
@@ -39,8 +39,8 @@ pipeline {
 
           def lastCommit = sh(returnStatus: true,
                               script: "git log -1 | grep '.*\\[CI SKIP\\].*'")
-          if (lastCommit == 0) { 
-              echo "CI SKIP detected.  Aborting build" 
+          if (lastCommit == 0) {
+              echo "CI SKIP detected.  Aborting build"
               env.skipBuild = 'true'
           }
         }
@@ -48,7 +48,7 @@ pipeline {
     }
 
     stage('Do Build') {
-      when { 
+      when {
         expression {
           env.skipBuild != 'true'
         }
@@ -121,7 +121,7 @@ pipeline {
                                   'install.json',
                                   'yarn.lock']
 
-              
+
               sh "git fetch --no-tags ${env.projUrl} " +
                  "+refs/heads/${env.CHANGE_BRANCH}:refs/remotes/origin/${env.CHANGE_BRANCH}"
               sh "git checkout -b ${env.CHANGE_BRANCH} origin/${env.CHANGE_BRANCH}"
@@ -136,7 +136,7 @@ pipeline {
                 sshGitPush(origin: env.folioPlatform, branch: env.CHANGE_BRANCH)
               }
               else {
-                echo "No new changes.  No push to git origin needed" 
+                echo "No new changes.  No push to git origin needed"
               }
             }
           }
