@@ -13,6 +13,7 @@ module.exports = {
   modules: {
     '@folio/agreements': {},
     '@folio/erm-usage': {},
+    '@folio/eholdings': {},
     '@folio/local-kb-admin': {},
     '@folio/licenses': {},
     '@folio/notes': {},
