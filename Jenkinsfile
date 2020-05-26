@@ -43,23 +43,6 @@ pipeline {
         buildStripesPlatform(params.OKAPI_URL,env.tenant)
       }
     }
-
-    stage('Publish Snapshot NPM') {
-      when {
-        buildingTag()
-      }
-      steps {
-        // clean up any generated stuff from CI
-        sh 'rm -rf bundle output artifacts ci node_modules yarn.lock ModuleDescriptors'
-
-        withCredentials([string(credentialsId: env.npmConfig,variable: 'NPM_TOKEN')]) {
-          withNPM(npmrcConfig: env.npmConfig) {
-            sh 'npm publish'
-          }
-        }
-      }
-    }
-
   } // end stages
 
   post {
