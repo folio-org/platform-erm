@@ -13,6 +13,7 @@ module.exports = {
   modules: {
     '@folio/agreements': {},
     '@folio/erm-usage': {},
+    '@folio/erm-comparisons': {},
     '@folio/eholdings': {},
     '@folio/local-kb-admin': {},
     '@folio/licenses': {},
@@ -20,6 +21,7 @@ module.exports = {
     '@folio/orders': {},
     '@folio/organizations': {},
     '@folio/plugin-find-agreement': {},
+    '@folio/plugin-find-eresource': {},
     '@folio/plugin-find-erm-usage-data-provider': {},
     '@folio/plugin-find-interface': {},
     '@folio/plugin-find-license': {},
@@ -30,7 +32,6 @@ module.exports = {
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/tenant-settings': {},
-    '@folio/users': {},
   },
   branding: {
     logo: {
