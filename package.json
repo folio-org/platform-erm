@@ -49,7 +49,7 @@
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
-    "@folio/stripes-cli": ">=1.10.0",
+    "@folio/stripes-cli": "^2.0.0",
     "react-intl": "^5.8.1"
   },
   "resolutions": {
