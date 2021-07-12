@@ -13,6 +13,7 @@ module.exports = {
   modules: {
     '@folio/agreements': {},
     '@folio/dashboard': {},
+    '@folio/stripes-registry': {},
     '@folio/erm-usage': {},
     '@folio/erm-comparisons': {},
     '@folio/eholdings': {},
