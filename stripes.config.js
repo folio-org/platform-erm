@@ -1,5 +1,5 @@
 module.exports = {
-  okapi: { 'url':'http://localhost:9130', 'tenant':'diku' },
+  okapi: { 'url': 'http://localhost:9130', 'tenant': 'diku' },
   config: {
     // autoLogin: { username: 'diku_admin', password: 'admin' }
     // disableAuth: false
@@ -31,7 +31,6 @@ module.exports = {
     '@folio/plugin-find-package-title': {},
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user': {},
-    '@folio/stripes-acq-components': {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/tenant-settings': {},
