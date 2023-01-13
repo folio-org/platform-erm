@@ -26,13 +26,7 @@ configuration file.
 
 ## Installation and Branch Selection
 
-After cloning and `cd`ing into the directory, select which branch you want to use. `snapshot` is used for daily development work and should have the latest changes. `master` is only updated for long-lived releases like the quarterly FOLIO releases.
-
-```
-$ git checkout origin snapshot
-```
-
-Next, install platform dependencies.
+After cloning and `cd`ing into the directory, install platform dependencies.
 
 ```
 $ yarn config set @folio:registry https://repository.folio.org/repository/npm-folioci/
@@ -62,9 +56,9 @@ See the [build](https://github.com/folio-org/stripes-cli/blob/master/doc/command
 
 ## Developing and Contributing to ERM Modules
 
-To contribute to the modules (ui-agreements, ui-licenses, etc) that compose this platform, we recommend using the `stripes-cli` [Yarn Workspace functionality](https://github.com/folio-org/stripes-cli/blob/master/doc/user-guide.md#platform-development). 
+To contribute to the modules (ui-agreements, ui-licenses, etc) that compose this platform, we recommend using the `stripes-cli` [Yarn Workspace functionality](https://github.com/folio-org/stripes-cli/blob/master/doc/user-guide.md#platform-development).
 
-- [After installing `stripes-cli`](https://github.com/folio-org/stripes-cli#installation), create a workspace using `stripes workspace` and selecting which modules you wish to wish to clone locally, enabling you to make local modifications and contribute to them. 
+- [After installing `stripes-cli`](https://github.com/folio-org/stripes-cli#installation), create a workspace using `stripes workspace` and selecting which modules you wish to wish to clone locally, enabling you to make local modifications and contribute to them.
   - Note: Ensure you have selected `platform-erm` so that you can run the entire platform.
 - `cd` into the created workspace (titled `stripes` by default) and run `yarn` to install the dependencies.
   - Note: Run `stripes platform pull` to `git pull` changes to the cloned repos.

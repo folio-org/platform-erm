@@ -1,5 +1,5 @@
 module.exports = {
-  okapi: { 'url':'http://localhost:9130', 'tenant':'diku' },
+  okapi: { 'url': 'http://localhost:9130', 'tenant': 'diku' },
   config: {
     // autoLogin: { username: 'diku_admin', password: 'admin' }
     // disableAuth: false
@@ -12,23 +12,28 @@ module.exports = {
   },
   modules: {
     '@folio/agreements': {},
+    '@folio/dashboard': {},
+    '@folio/handler-stripes-registry': {},
     '@folio/erm-usage': {},
+    '@folio/erm-comparisons': {},
+    '@folio/eholdings': {},
     '@folio/local-kb-admin': {},
     '@folio/licenses': {},
     '@folio/notes': {},
     '@folio/orders': {},
     '@folio/organizations': {},
     '@folio/plugin-find-agreement': {},
+    '@folio/plugin-find-eresource': {},
     '@folio/plugin-find-erm-usage-data-provider': {},
     '@folio/plugin-find-interface': {},
     '@folio/plugin-find-license': {},
     '@folio/plugin-find-organization': {},
+    '@folio/plugin-find-package-title': {},
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user': {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/tenant-settings': {},
-    '@folio/users': {},
   },
   branding: {
     logo: {
