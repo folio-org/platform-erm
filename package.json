@@ -56,6 +56,6 @@
     "react-intl": "^5.8.1"
   },
   "resolutions": {
-    "moment": "~2.29.0"
+    "@rehooks/local-storage": "2.4.4"
   }
 }
