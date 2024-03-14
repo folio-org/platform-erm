@@ -9,6 +9,7 @@ module.exports = {
     // logTimestamp: false
     // showHomeLink: false
     // showPerms: false
+    useSecureTokens: true,
   },
   modules: {
     '@folio/agreements': {},
