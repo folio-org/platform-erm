@@ -34,6 +34,7 @@ module.exports = {
     '@folio/plugin-find-po-line': {},
     '@folio/plugin-find-user': {},
     '@folio/serials-management': {},
+    '@folio/service-interaction': {},
     '@folio/stripes-erm-components': {},
     '@folio/tags': {},
     '@folio/tenant-settings': {},
