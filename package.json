@@ -47,6 +47,8 @@
     "@folio/service-interaction": ">=1.0.0",
     "@folio/stripes": "^9.1.0",
     "@folio/stripes-erm-components": ">=6.0.0",
+    "@folio/stripes-marc-components": ">=1.0.0",
+    "@folio/stripes-inventory-components": ">=1.0.0",
     "@folio/tags": ">=1.3.0",
     "@folio/tenant-settings": ">=2.9.0",
     "@folio/users": ">=1.0.0",

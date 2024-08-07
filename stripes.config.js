@@ -39,6 +39,8 @@ module.exports = {
     '@folio/serials-management': {},
     '@folio/service-interaction': {},
     '@folio/stripes-erm-components': {},
+    '@folio/stripes-inventory-components': {},
+    '@folio/stripes-marc-components': {},
     '@folio/tags': {},
     '@folio/tenant-settings': {},
     '@folio/users': {},
