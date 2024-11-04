@@ -15,7 +15,7 @@
     "test": "echo 'No unit tests implemented'",
     "test-int": "stripes test nightmare stripes.config.js",
     "lint": "eslint test/ui-testing",
-    "clean": "rm -rf ../node_modules ../*/node_modules ../yarn.lock",
+    "clean": "rm -rf ../node_modules ../*/node_modules ../yarn.lock ../*/yarn.lock",
     "clean-install": "yarn clean && yarn install --ignore-scripts"
   },
   "dependencies": {
