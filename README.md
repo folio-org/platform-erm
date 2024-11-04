@@ -113,6 +113,20 @@ Example running "new_user" test in `ui-users`:
 $ yarn test-regression --run users:new_user
 ```
 
+## Swapping between folio and folioci registries
+Building this in a workspace the commands are simple
+`yarn config get @folio:registry` will return which registry is currently configured.
+From there you can `yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/` for example, to swap to release-only artifacts.
+If there is a workspace OR platform level `yarnrc` or `npmrc` file the build will take that as the authoritative registry definition, so those may need changing at this point also.
+
+
+Then run `yarn cache clean` to ensure that your build is doing a brand new pull of the artifacts necessary.
+
+
+Finally, running `yarn clean-install` from the platform should rebuild using the expected registry.
+
+A developer can confirm this by running `yarn why @folio/stripes`. This should return a short semantic version number on the npm registry (eg `9.2.3`) and a much longer one on the ci registry (eg `9.3.10990000000014`)
+
 ## Additional information
 
 See project [FOLIO](https://issues.folio.org/browse/FOLIO)
