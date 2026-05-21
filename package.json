@@ -20,6 +20,7 @@
     "clean-install": "yarn clean && yarn install --ignore-scripts"
   },
   "dependencies": {
+    "@folio/acquisition-units": ">=6.0.0",
     "@folio/agreements": ">=2.0.0",
     "@folio/dashboard": ">=1.0.0",
     "@folio/handler-stripes-registry": ">=1.0.0",
